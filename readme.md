@@ -32,7 +32,7 @@ I'm passionate about creating modern, responsive, and user-friendly websites. Cu
 
 ## 📫 Connect With Me
 
-* GitHub: https://github.com/YOUR_USERNAME
+* GitHub: https://github.com/himanshu-kamboz
 
 ### ✨ Motto
 
