@@ -420,23 +420,26 @@ a:hover {
     display: flex;
     gap: 10px;
 }
- 
-.container{
+
+.container {
     width: 45%;
 }
-#container-1 h2{
+
+#container-1 h2 {
     margin: 0;
     font-size: 45px;
 }
 
-#container-2{
+#container-2 {
     padding-top: 50px;
 }
-#container-2 h3{
+
+#container-2 h3 {
     font-size: 16px;
     margin: 0px 0 40px 0;
 
 }
+
 #container-btn {
     height: 50px;
     width: 160px;
@@ -455,18 +458,20 @@ a:hover {
 }
 
 #sub-divs {
-    margin:0 80px ;
+    margin: 0 80px;
     display: flex;
 }
 
-#sub-divs h3{
+#sub-divs h3 {
     font-size: 20px;
 }
-#sub-divs p{
+
+#sub-divs p {
     font-weight: 700;
 }
-.sub-div button{
-    color:white ;
+
+.sub-div button {
+    color: white;
     border: 0;
     margin-bottom: 40px;
     font-size: 16px;
@@ -474,31 +479,55 @@ a:hover {
     font-weight: 700;
     background-color: transparent;
 }
+
 .sub-div {
     height: 460px;
     width: 420px;
     padding: 40px;
     margin: auto;
-    background-color: rgba(64, 64, 64, 0.4) ;
+    background-color: rgba(64, 64, 64, 0.4);
 }
-.content-paragraph{
+
+.content-paragraph {
     margin-top: 30px;
 }
 
 #container-text {
     width: 100%;
     display: flex;
-    font-size:16px ;
+    font-size: 16px;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     gap: 10px;
 }
-#free h3{
+
+#free h3 {
     width: 50px;
     margin: 0;
-    font-size:14px ;
-    border-radius:25px ;
+    font-size: 14px;
+    border-radius: 25px;
     text-align: center;
     background-color: #FF5B2E;
+}
+
+@media (max-width: 991px) {
+    #main {
+        width: 100%;
+    }
+    #background-image {
+        width: 95%;
+        padding: 10px;
+    }
+    #navbar {
+        height: 40px;
+        top: 20px;
+    }
+    #logo {
+        height: 40px;
+        padding: 5px;
+    }
+    #logo img{
+        height: 30px;
+    }
 }
