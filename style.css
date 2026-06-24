@@ -17,7 +17,8 @@
 }
 
 #main {
-    height: 1000px;
+    min-height: 1000px;
+    height: auto;
     width: 99%;
     margin: auto;
     background-image: url(HERO.jpg);
@@ -407,8 +408,9 @@ a:hover {
     /* margin-left:20px; */
     width: 100%;
     background-image: url(dark_bg.png);
-    height: 1000px;
-    overflow: hidden;
+    min-height: 1000px;
+    height: auto;
+    overflow-x: hidden;
 }
 
 #inner-container-content {
