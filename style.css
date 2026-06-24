@@ -512,8 +512,12 @@ a:hover {
 }
 
 @media (max-width: 991px) {
+    *{
+        overflow-x: hidden;
+    }
     #main {
         width: 100%;
+        overflow: hidden;
     }
     #background-image {
         width: 95%;
@@ -529,5 +533,9 @@ a:hover {
     }
     #logo img{
         height: 30px;
+    }
+    #header{
+        width: 95%;
+        padding-top:50px ;
     }
 }
